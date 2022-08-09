@@ -1,0 +1,3 @@
+rootProject.name='BubbleAnimation'
+include ':app'
+include ':app:ballAnimation'

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatingBubbleView">
+        <attr format="string" name="my_custom_attribute" />
+        <attr format="integer" name="minBall"/>
+        <attr format="integer" name="maxBall"/>
+        <attr format="integer" name="minRadius"/>
+        <attr format="integer" name="maxRadius"/>
+        <attr format="integer" name="minVel"/>
+        <attr format="integer" name="maxVel"/>
+        <attr format="reference" name="ballDrawable" />
+        <attr format="integer" name="maxAlpha"/>
+        <attr format="integer" name="minAlpha"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.sid.ballanimation.FloatingBubbleView
+        android:id="@+id/bubble"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ballDrawable="@drawable/circle_medium"
+        app:maxAlpha="240"
+        app:maxBall="30"
+        app:maxRadius="80"
+        app:minAlpha="15"
+        app:minBall="15"
+        app:minRadius="40"
+        app:minVel="1"
+        app:maxVel="3"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
