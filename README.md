@@ -7,6 +7,8 @@ https://user-images.githubusercontent.com/60606550/183654327-ede0f91d-3ded-485f-
 
 add view as-
 
+``` java
+
  <com.sid.ballanimation.FloatingBubbleView
  
         android:id="@+id/bubble"
